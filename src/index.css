@@ -185,6 +185,11 @@ section {
   width: 80%;
 }
 
+.bottom-sheet button {
+  font-size: 1.6rem;
+  padding: 0.8rem;
+}
+
 /* -------------------------- */
 /*         반응형 디자인      */
 /* -------------------------- */
