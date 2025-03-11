@@ -48,3 +48,86 @@
   background-color: rgb(223, 1, 1);     
   box-shadow: 0 3px 4px rgba(0, 0, 0, 0.1);  /
 }
+
+
+
+@media (max-width: 1024px) {
+  .home-h1 {
+    font-size: 8rem;
+    margin: 3rem;
+  }
+
+  .home-logo {
+    height: 8em;
+    padding: 1.2em;
+  }
+
+  .home-btn-group {
+    flex-direction: column; /* 버튼을 세로 정렬 */
+    align-items: center;
+  }
+
+  .home-btn {
+    font-size: 3rem;
+    padding: 5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .home-h1 {
+    font-size: 6rem;
+    margin: 2rem;
+  }
+
+  .home-logo {
+    height: 6em;
+    padding: 1em;
+  }
+
+  .home-btn {
+    font-size: 2.5rem;
+    padding: 4rem;
+    border-radius: 1.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .home-h1 {
+    font-size: 4rem;
+    margin: 1.5rem;
+  }
+
+  .home-logo {
+    height: 5em;
+    padding: 0.8em;
+  }
+
+  .home-btn-group {
+    flex-direction: column; /* 버튼을 세로 정렬 */
+    align-items: center;
+  }
+
+  .home-btn {
+    font-size: 2rem;
+    padding: 3rem;
+    border-radius: 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .home-h1 {
+    font-size: 3rem;
+    margin: 1rem;
+  }
+
+  .home-logo {
+    height: 4em;
+    padding: 0.6em;
+  }
+
+  .home-btn {
+    font-size: 1.8rem;
+    padding: 2.5rem;
+    border-radius: 1rem;
+  }
+}
