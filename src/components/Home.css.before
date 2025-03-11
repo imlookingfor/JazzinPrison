@@ -1,54 +1,56 @@
-/* -------------------------- */
-/*          기본 스타일       */
-/* -------------------------- */
 .home-div {
   text-align: center;
 }
 
+
 .home-h1 {
   font-size: 10rem;
   margin: 4rem;
+
 }
+
 
 .home-logo {
   height: 10em;
   padding: 1.5em;
 }
 
+
 .home-btn-group {
   display: flex;
   gap: 1rem; /* 버튼 간 간격 */
 }
 
+
 .home-btn {
-  color: #fff;
-  background-color: red;
+  color: #fff;       
+  background-color: red;      
   padding: 6rem;
-  margin: 1rem;
-  font-size: 3.5rem;
-  font-family: 'NapjakBlock';
+  margin: 1rem;  
+  font-size: 3.5rem;     
+  font-family: 'NapjakBlock';           
   border: none;
   border-radius: 2rem;
   box-shadow: 0 0.8rem 0 0 rgb(169, 2, 2);
-  cursor: pointer;
+  cursor: pointer; 
   transition: background-color 0.3s, transform 0.1s, box-shadow 0.3s; /* 부드러운 전환 효과 */
 }
 
+
 .home-btn:hover {
-  transform: translateY(0.8rem); /* 아래로 위치 이동 */
+  transform: translateY(0.8rem);  /* 아래로 위치 이동 */
   box-shadow: 0px 0px 0px 0px rgb(224, 1, 1);
+  
 }
 
 .home-btn:active {
-  background-color: rgb(223, 1, 1);
-  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.1);
+  /* transform: scale(0.97); */
+  background-color: rgb(223, 1, 1);     
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.1);  /
 }
 
-/* -------------------------- */
-/*         반응형 디자인      */
-/* -------------------------- */
 
-/* 태블릿 (1024px 이하) */
+
 @media (max-width: 1024px) {
   .home-h1 {
     font-size: 8rem;
@@ -71,7 +73,6 @@
   }
 }
 
-/* 작은 태블릿 (768px 이하) */
 @media (max-width: 768px) {
   .home-h1 {
     font-size: 6rem;
@@ -90,7 +91,6 @@
   }
 }
 
-/* 스마트폰 (600px 이하) */
 @media (max-width: 600px) {
   .home-h1 {
     font-size: 4rem;
@@ -114,7 +114,6 @@
   }
 }
 
-/* 작은 스마트폰 (480px 이하) */
 @media (max-width: 480px) {
   .home-h1 {
     font-size: 3rem;
