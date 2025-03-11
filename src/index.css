@@ -210,25 +210,25 @@ section {
   }
 
   h1 {
-    font-size: 4rem;
+    font-size: 5.2rem;
   }
 
   main h2 {
-    font-size: 2.4rem;
+    font-size: 2.8rem;
   }
 
   main h3 {
-    font-size: 1.6rem;
+    font-size: 2rem;
   }
 
   section {
     padding: 2rem;
-    margin-bottom: 3rem;
+    margin-bottom: 3.5rem;
   }
 
   .casts li img, .directors img {
-    max-width: 8rem;
-    max-height: 8rem;
+    max-width: 12rem;
+    max-height: 12rem;
   }
 
   .casts li p {
@@ -255,20 +255,20 @@ section {
   }
 
   h1 {
-    font-size: 3.2rem;
+    font-size: 4.6rem;
   }
 
   main h2 {
-    font-size: 2rem;
+    font-size: 2.4rem;
   }
 
   main h3 {
-    font-size: 1.4rem;
+    font-size: 1.8rem;
   }
 
   section {
     padding: 1.8rem;
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
   }
 
   .casts ul {
@@ -278,8 +278,8 @@ section {
   }
 
   .casts li img, .directors img {
-    max-width: 7rem;
-    max-height: 7rem;
+    max-width: 11rem;
+    max-height: 11rem;
   }
 
   .bottom-sheet {
@@ -301,25 +301,25 @@ section {
   }
 
   h1 {
-    font-size: 2.8rem;
+    font-size: 4rem;
   }
 
   main h2 {
-    font-size: 1.6rem;
+    font-size: 2rem;
   }
 
   main h3 {
-    font-size: 1.2rem;
+    font-size: 1.6rem;
   }
 
   section {
     padding: 1.5rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
   }
 
   .casts li img, .directors img {
-    max-width: 6rem;
-    max-height: 6rem;
+    max-width: 10rem;
+    max-height: 10rem;
   }
 
   .bottom-sheet {
