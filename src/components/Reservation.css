@@ -1,27 +1,57 @@
+/* -------------------------- */
+/*       예약 버튼 스타일      */
+/* -------------------------- */
 .reserve-btn {
-  color: #fff;       
-  background-color: red;      
+  color: #fff;
+  background-color: red;
   padding: 1.5rem;
-  margin: 1rem;  
-  font-size: 1.5rem;     
-  font-family: 'NapjakBlock';           
+  margin: 1rem;
+  font-size: 1.5rem;
+  font-family: 'NapjakBlock';
   border: none;
   border-radius: 1rem;
   box-shadow: 0 0.2rem 0 0 rgb(169, 2, 2);
-  cursor: pointer; 
+  cursor: pointer;
   transition: background-color 0.3s, transform 0.1s, box-shadow 0.3s;
-
 }
-
 
 .reserve-btn:hover {
   transform: translateY(0.2rem);
   box-shadow: 0px 0px 0px 0px rgb(224, 1, 1);
-
 }
 
-
 .reserve-btn:active {
-  background-color: rgb(223, 1, 1);     
-  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.1);  /
+  background-color: rgb(223, 1, 1);
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* -------------------------- */
+/*         반응형 디자인      */
+/* -------------------------- */
+
+/* 태블릿 (768px 이하) */
+@media (max-width: 768px) {
+  .reserve-btn {
+    font-size: 1.3rem;
+    padding: 1.2rem;
+    border-radius: 0.8rem;
+  }
+}
+
+/* 스마트폰 (600px 이하) */
+@media (max-width: 600px) {
+  .reserve-btn {
+    font-size: 1.2rem;
+    padding: 1rem;
+    border-radius: 0.7rem;
+  }
+}
+
+/* 작은 스마트폰 (480px 이하) */
+@media (max-width: 480px) {
+  .reserve-btn {
+    font-size: 1rem;
+    padding: 0.8rem;
+    border-radius: 0.6rem;
+  }
 }

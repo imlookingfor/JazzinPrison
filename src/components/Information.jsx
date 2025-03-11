@@ -76,6 +76,7 @@ function Information() {
         </section>
 
         <div className='hidden-div'></div>
+        <div className='hidden-div'></div>
 
 
 

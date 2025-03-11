@@ -32,6 +32,7 @@ export default function Reservation() {
       </main>
 
       <div className='hidden-div'></div>
+      <div className='hidden-div'></div>
 
     </>
 
