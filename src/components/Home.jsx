@@ -9,7 +9,6 @@ function Home() {
     <>
 
       <div className='hidden-div'></div>
-      <div className='hidden-div'></div>
       <div className='home-div'>
         {/* <img className="home-logo" src={logoImg} alt="" /> */}
         <h1 className='home-h1'>Jazz in Prison</h1>
