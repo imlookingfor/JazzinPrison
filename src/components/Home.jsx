@@ -18,6 +18,7 @@ function Home() {
         <Link to='/reservation'><button className='home-btn'>예매하기</button></Link>
         <Link to='/info'><button className='home-btn'>공연소개</button></Link>
       </div>
+      <div className='hidden-div'></div>
 
     </>
 
