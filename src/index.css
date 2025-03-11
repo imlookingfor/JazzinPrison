@@ -108,6 +108,10 @@ section {
   justify-content: center;
 }
 
+.casts li {
+  margin-bottom: 1.5rem;
+}
+
 .casts li img, .directors img {
   margin: 1rem;
   max-width: 10rem;
