@@ -74,7 +74,7 @@
 /* 작은 태블릿 (768px 이하) */
 @media (max-width: 768px) {
   .home-h1 {
-    font-size: 6rem;
+    font-size: 6.5rem;
     margin: 2rem;
   }
 
@@ -93,7 +93,7 @@
 /* 스마트폰 (600px 이하) */
 @media (max-width: 600px) {
   .home-h1 {
-    font-size: 4rem;
+    font-size: 5.5rem;
     margin: 1.5rem;
   }
 
@@ -117,7 +117,7 @@
 /* 작은 스마트폰 (480px 이하) */
 @media (max-width: 480px) {
   .home-h1 {
-    font-size: 3rem;
+    font-size: 5rem;
     margin: 1rem;
   }
 
