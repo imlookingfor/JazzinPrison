@@ -1,0 +1,208 @@
+@media (max-width: 600px) {
+
+  #root {
+    width: 90%;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+}
+
+
+@font-face {
+  font-family: 'NanumSquareRound';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Cafe24Lovingu';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2405-3@1.1/Cafe24Lovingu.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'NapjakBlock';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NapjakBlock.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+* {
+  box-sizing: border-box;
+  font-family: 'NanumSquareRound', sans-serif;
+}
+
+
+html, body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: auto;
+  padding: 0;
+  overflow-y: auto;
+  max-width: 60rem;
+
+}
+
+
+
+h1 {
+  color: red;
+  font-size: 5rem;
+  font-family: 'Cafe24Lovingu';
+  margin: 0;
+}
+
+
+ul {
+  list-style: none;
+}
+
+
+header {
+  color: red;
+  text-align: center;
+}
+
+
+.header p {
+  margin: 0;
+}
+
+
+main {
+  max-width: 60rem;
+  margin: 0 auto;
+}
+
+
+main h2 {
+  font-size: 2.8rem;
+  font-family: 'NapjakBlock';
+}
+
+
+main h3 {
+  font-size: 1.8rem;
+}
+
+
+section {
+  padding: 2.6rem;
+  border-radius: 0.8rem;
+  background-color: white;
+  color: black;
+  margin: 0 0 5rem 0;
+  text-align: center;
+}
+
+
+.synopsis {
+  text-align: justify;
+}
+
+
+.casts ul {
+  display: flex;
+  padding: 0;
+  margin: 2rem 0;
+  gap: 2rem;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+
+
+.casts li img {
+  margin: 1rem;
+  max-width: 10rem;
+  max-height: 10rem;
+  border-radius: 0.5rem;
+  object-fit: cover; 
+  /* object-fit: cover; 콘텐츠의 가로세로 비율을 유지하여 보여줌 (일일이 px값 조정할 필요 없음) 다만 cover의 경우 이미지가 잘릴 수 있다. */
+}
+
+
+.casts li p {
+  font-size: 1.2rem;
+  max-width: 12rem;
+}
+
+
+.directors img {
+  margin: 1rem;
+  max-width: 10rem;
+  max-height: 10rem;
+  border-radius: 0.5rem;
+  object-fit: cover; 
+}
+
+
+.introduce button {
+  padding: 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  background: radial-gradient(
+    circle at 20% 100%,
+    #f5e0b3 4%,
+    #e76357 30%,
+    #de458d 62%,
+    #af49cb 85%,
+    #7a84e1
+  );
+  border: none;
+  border-radius: 0.5rem;
+}
+
+
+.logo-div {
+  text-align: center;
+  margin: 1rem;
+}
+
+
+.logo {
+  height: 16rem;
+  padding: 1.5em;
+}
+
+
+.hidden-div {
+  padding: 2.6rem;
+}
+
+
+.bottom-sheet {
+  position: fixed;
+  bottom: 0%;
+  left: 50%;
+  transform: translate(-50%, -0%);
+  background: #fff;
+  padding: 0.8rem;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-out;
+  border-radius: 0.5rem;
+  text-align: center;
+  width: 80%;;
+}
+
+
+.bottom-sheet button {
+  font-size: 1rem;
+  color: white;
+  background-color: red;
+  padding: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  width: 80%;
+}
