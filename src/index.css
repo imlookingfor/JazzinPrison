@@ -110,12 +110,14 @@ section {
 
 .casts li {
   margin-bottom: 1.5rem;
+  flex-direction: column;
+  margin: 1rem 0 3rem 0;
 }
 
 .casts li img, .directors img {
   margin: 1rem;
-  max-width: 10rem;
-  max-height: 10rem;
+  max-width: 15rem;
+  max-height: 15rem;
   border-radius: 0.5rem;
   object-fit: cover;
 }
@@ -123,6 +125,8 @@ section {
 .casts li p {
   font-size: 1.2rem;
   max-width: 12rem;
+  margin: auto;
+  
 }
 
 .hidden-div {
@@ -227,12 +231,8 @@ section {
   }
 
   .casts li img, .directors img {
-    max-width: 12rem;
-    max-height: 12rem;
-  }
-
-  .casts li p {
-    font-size: 1rem;
+    max-width: 14rem;
+    max-height: 14rem;
   }
 
   .bottom-sheet {
@@ -278,8 +278,8 @@ section {
   }
 
   .casts li img, .directors img {
-    max-width: 11rem;
-    max-height: 11rem;
+    max-width: 13rem;
+    max-height: 13rem;
   }
 
   .bottom-sheet {
@@ -318,8 +318,8 @@ section {
   }
 
   .casts li img, .directors img {
-    max-width: 10rem;
-    max-height: 10rem;
+    max-width: 12rem;
+    max-height: 12rem;
   }
 
   .bottom-sheet {
