@@ -10,15 +10,26 @@ import './Home.css';
 
 function Information() {
 
+  // const CAST_LIST = [
+  //   { title: '벨마 켈리', data: VELMA },
+  //   { title: '록시 하트', data: ROXIE },
+  //   { title: '빌리 플린', data: BILLY },
+  //   { title: '마마 모튼', data: MAMA },
+  //   { title: '에이모스 하트', data: AMOS },
+  //   { title: '메리 선샤인', data: MARY },
+  //   { title: '앙상블', data: ENSEMBLE },
+  // ];
+
   const CAST_LIST = [
-    { title: '벨마 켈리', data: VELMA },
-    { title: '록시 하트', data: ROXIE },
-    { title: '빌리 플린', data: BILLY },
-    { title: '마마 모튼', data: MAMA },
-    { title: '에이모스 하트', data: AMOS },
-    { title: '메리 선샤인', data: MARY },
-    { title: '앙상블', data: ENSEMBLE },
+    { title: "", data: VELMA },
+    { title: "", data: ROXIE },
+    { title: "", data: BILLY },
+    { title: "", data: MAMA },
+    { title: "", data: AMOS },
+    { title: "", data: MARY },
+    { title: "", data: ENSEMBLE },
   ];
+
 
   return (
     <>
@@ -26,10 +37,10 @@ function Information() {
       <Header />
       <main>
 
-        <h1>Synopsis</h1>
+        {/* <h1>Synopsis</h1>
         <section className="synopsis">
           <Synopsis />
-        </section>
+        </section> */}
 
         <h1>Casts</h1>
         <section className="casts">

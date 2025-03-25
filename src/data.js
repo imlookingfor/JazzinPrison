@@ -122,8 +122,8 @@ export const ENSEMBLE = [
     image: billy3
   },
   {
-    name: "망사 연재",
-    text: "가자",
+    name: "심연재",
+    text: "망사 가자",
     image: billy2
   },
 
@@ -149,7 +149,7 @@ export const ENSEMBLE = [
   },
   {
     name: "정동현",
-    text: "엠티에서한번뵌분",
+    text: "이제 시카고에 집중하기로해",
     image: billy2
   },
   {
@@ -192,11 +192,11 @@ export const DIRECTORS = [
 export const SCHEDULE = {
   firstDay: {
     date: "4월 19일",
-    table: "몇시 몇시 벨마누구 록시누구 빌리누구 누구누구",
+    table: "12:30분 누구누구 나오고 15:30 누구누구 나오고 18:30 누구누구 나와요",
   },
   secondDay: {
     date: "4월 20일",
-    table: "몇시 모두모두 모여라"
+    table: "12:00 누구누구 15:00 누구누구 18:00 누구누구"
   }
 }
 

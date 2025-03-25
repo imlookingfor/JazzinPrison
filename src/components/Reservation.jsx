@@ -25,10 +25,10 @@ export default function Reservation() {
           <Schedule />
         </section>
 
-        <h1>Location</h1>
+        {/* <h1>Location</h1>
         <section className='locatin'>
           <Location />
-        </section>
+        </section> */}
       </main>
 
       <div className='hidden-div'></div>

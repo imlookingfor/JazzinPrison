@@ -6,7 +6,7 @@ export default function Header() {
   return(
     <header>
       <Link to='/'><img className='logo' src={logoImg}/></Link>
-      <p>
+      {/* <p>
         신사 숙녀 여러분! 환영합니다.
       </p>
       <p>
@@ -20,7 +20,8 @@ export default function Header() {
       </p>
       <p>
         감사합니다!
-      </p>
+      </p> */}
+      <div className="hidden-div"></div>
   </header>
   )
 }
