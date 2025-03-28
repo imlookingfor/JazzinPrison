@@ -1,14 +1,27 @@
-
-import velma1 from "./assets/profiles/velma1.png"
-import velma2 from "./assets/profiles/velma2.png"
-import velma3 from "./assets/profiles/velma3.png"
-import roxie1 from "./assets/profiles/roxie1.png"
-import roxie2 from "./assets/profiles/roxie2.png"
-import roxie3 from "./assets/profiles/roxie3.png"
-import billy1 from "./assets/profiles/billy1.png"
-import billy2 from "./assets/profiles/billy2.png"
-import billy3 from "./assets/profiles/billy3.png"
-
+import velma1 from "./assets/profiles/velma1.jpeg"
+import velma2 from "./assets/profiles/velma2.jpeg"
+import velma3 from "./assets/profiles/velma3.jpeg"
+import roxie1 from "./assets/profiles/roxie1.jpeg"
+import roxie2 from "./assets/profiles/roxie2.jpeg"
+import roxie3 from "./assets/profiles/roxie3.jpeg"
+import billy1 from "./assets/profiles/billy1.jpeg"
+import billy2 from "./assets/profiles/billy2.jpeg"
+import billy3 from "./assets/profiles/billy3.jpeg"
+import mama1 from "./assets/profiles/mama1.jpeg"
+import mama2 from "./assets/profiles/mama2.jpeg"
+import mary1 from "./assets/profiles/mary1.jpeg"
+import mary2 from "./assets/profiles/mary2.jpeg"
+import amos1 from "./assets/profiles/amos1.jpeg"
+import amos2 from "./assets/profiles/amos2.jpeg"
+import ensemble1 from "./assets/profiles/ensemble1.jpeg"
+import ensemble2 from "./assets/profiles/ensemble2.jpeg"
+import ensemble3 from "./assets/profiles/ensemble3.jpeg"
+import ensemble4 from "./assets/profiles/ensemble4.jpeg"
+import ensemble5 from "./assets/profiles/ensemble5.jpeg"
+import ensemble6 from "./assets/profiles/ensemble6.jpeg"
+import ensemble7 from "./assets/profiles/ensemble7.jpeg"
+import ensemble8 from "./assets/profiles/ensemble8.jpeg"
+import ensemble9 from "./assets/profiles/ensemble9.jpeg"
 
 
 export const VELMA = [
@@ -18,15 +31,15 @@ export const VELMA = [
     image: velma1
   },
   {
+    name: "김경민",
+    text: "한 줄 정도 적는 겁니다",
+    image: velma3
+  },
+  {
     name: "변지현",
     text: "좋아하는 대사를",
     image: velma2
   },
-  {
-    name: "김경민",
-    text: "한 줄 정도 적는 겁니다",
-    image: velma3
-  }
 ];
 
 
@@ -72,12 +85,12 @@ export const MAMA = [
   {
     name: "성유진",
     text: "겹치진 않겠죠?",
-    image: billy1
+    image: mama1
   },
   {
     name: "임유림",
     text: "겹쳐도 어쩔 수 없죠",
-    image: billy2
+    image: mama2
   }
 ]
 
@@ -86,12 +99,12 @@ export const MARY = [
   {
     name: "김진경",
     text: "아무 말이나 상관 없습니다.",
-    image: billy1
+    image: mary1
   },
   {
     name: "정지은",
     text: "방구 뿡, 메롱 가능",
-    image: billy2
+    image: mary2
   }
 ]
 
@@ -100,12 +113,12 @@ export const AMOS = [
   {
     name: "조현호",
     text: "나는 셀로판 미스터 셀로판",
-    image: billy1
+    image: amos1
   },
   {
     name: "이시명",
     text: "눈치채셨겠지만 사진은 빌리 돌려막기였습니다.",
-    image: billy2
+    image: amos2
   }
 ]
 
@@ -114,48 +127,47 @@ export const ENSEMBLE = [
   {
     name: "신보연",
     text: "실질적 의상 감독님",
-    image: billy1
+    image: ensemble1
   },
   {
     name: "정민규",
     text: "똘비 아부지",
-    image: billy3
+    image: ensemble2
+  },
+  {
+    name: "안제민",
+    text: "제라드",
+    image: ensemble3
   },
   {
     name: "심연재",
     text: "망사 가자",
-    image: billy2
-  },
-
-  {
-    name: "안제민",
-    text: "제라드",
-    image: billy2
-  },
-  {
-    name: "최민혁",
-    text: "에반이었던분",
-    image: billy2
+    image: ensemble4
   },
   {
     name: "신정윤",
     text: "에반이랑뽀뽀했대요",
-    image: billy2
+    image: ensemble5
+  },
+  {
+    name: "최민혁",
+    text: "에반이었던분",
+    image: ensemble6
   },
   {
     name: "이종민",
     text: "태권도100단",
-    image: billy2
+    image: ensemble7
   },
   {
     name: "정동현",
     text: "이제 시카고에 집중하기로해",
-    image: billy2
+    image: ensemble8
   },
   {
     name: "송하빈",
     text: "그게바로접니다",
-    image: billy2
+    image: ensemble9
   },
 ]
 
@@ -172,7 +184,7 @@ export const DIRECTORS = [
     image: billy2
   },  
   {
-    name: "이요한",
+    name: "함도윤",
     role: "안무 감독",
     image: billy3
   },  
@@ -183,7 +195,7 @@ export const DIRECTORS = [
   },
   {
     name: "안제민",
-    role: "감독 총괄(?)",
+    role: "감독",
     image: billy3
   },
 ]

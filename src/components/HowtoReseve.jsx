@@ -3,10 +3,11 @@ export default function HowtoReserve() {
   return (
     <div>
       <h2>예매방법</h2>
-      <button className="reserve-btn" onClick={() => window.open('#')}>예매하러 가기</button>
-      <p>구글폼 작성하면 접수완 공연 한시간 전에 티켓수령 등 이러쿵저러쿵하시면 됨!</p>
-      <p>자세한 정보와 공연 장소는 전날 문자로 전송해드립니다.</p>
-      <p>예매 유의사항: 애들은 가라</p>
+      <button className="reserve-btn" onClick={() => window.open('#')}>접수하러 가기</button>
+      <p>위 링크를 통해 구글폼 양식을 작성하신 후 접수히사면 예매가 완료됩니다.</p>
+      <p>장소는 예매 완료하신 분들에 한해 공연 전날 문자로 안내해 드리고 있습니다.</p>
+      <p>티켓은 공연 한 시간 전부터 공연장에서 수령하실 수 있습니다.</p>
+      <p>예매 유의사항: 애들은 가라! 14세 이상 관람가</p>
     </div>
 
   )

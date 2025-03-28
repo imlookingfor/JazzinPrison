@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import HowtoReserve from './HowtoReseve'
-import Schedule from './Schedule'
-import Location from './Location'
+// import Schedule from './Schedule'
+// import Location from './Location'
 import logoImg from '../assets/logo.png'
 import './Reservation.css'
 
@@ -20,10 +20,10 @@ export default function Reservation() {
           <HowtoReserve />
         </section>
 
-        <h1>Schedule</h1>
+        {/* <h1>Schedule</h1>
         <section className='schedules'>
           <Schedule />
-        </section>
+        </section> */}
 
         {/* <h1>Location</h1>
         <section className='locatin'>
