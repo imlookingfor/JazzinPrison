@@ -46,7 +46,7 @@ export const VELMA = [
 export const ROXIE = [
   {
     name: "이상아",
-    text: "어때용?",
+    text: "가자 BABY 들~~ (찡끗) ❤️",
     image: roxie1
   },
   {
