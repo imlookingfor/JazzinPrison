@@ -33,12 +33,12 @@ export const VELMA = [
   {
     name: "김경민",
     text: "한 줄 정도 적는 겁니다",
-    image: velma3
+    image: velma2
   },
   {
     name: "변지현",
     text: "좋아하는 대사를",
-    image: velma2
+    image: velma3
   },
 ];
 
