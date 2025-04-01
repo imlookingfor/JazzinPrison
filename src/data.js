@@ -151,7 +151,7 @@ export const ENSEMBLE = [
   },
   {
     name: "이종민",
-    text: "시카고 최고의 춤꾼",
+    text: "섹시 댄스 goat",
     image: ensemble7
   },
   {
