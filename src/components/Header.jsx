@@ -1,11 +1,14 @@
 import { Link } from 'react-router-dom'
-import logoImg from '../assets/logo.png'
+// import logoImg from '../assets/logo.png'
 
 
 export default function Header() {
   return(
     <header>
-      <Link to='/'><img className='logo' src={logoImg}/></Link>
+      <div className="hidden-div"></div>
+
+      {/* <Link to='/'><img className='logo' src={logoImg}/></Link> */}
+      <Link to='/'><div className="">두 여자 이야기</div></Link>
       {/* <p>
         신사 숙녀 여러분! 환영합니다.
       </p>

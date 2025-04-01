@@ -1,5 +1,5 @@
 import Header from './Header';
-import Synopsis from './Synopsis';
+// import Synopsis from './Synopsis';
 import Casts from './Casts';
 import Directors from './Directors';
 import Introduce from './Introduce'; 
@@ -34,7 +34,7 @@ function Information() {
   return (
     <>
       <div className="hidden-div"></div>
-      <Header />
+      {/* <Header /> */}
       <main>
 
         {/* <h1>Synopsis</h1>

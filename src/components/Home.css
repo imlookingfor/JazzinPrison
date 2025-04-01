@@ -6,8 +6,9 @@
 }
 
 .home-h1 {
+  font-family: 'SF_HambakSnow';
   font-size: 10rem;
-  margin: 4rem;
+  margin: 3rem;
 }
 
 .home-logo {
@@ -51,7 +52,7 @@
 /* 태블릿 (1024px 이하) */
 @media (max-width: 1024px) {
   .home-h1 {
-    font-size: 8rem;
+    font-size: 6rem;
     margin: 3rem;
   }
 
@@ -74,7 +75,7 @@
 /* 작은 태블릿 (768px 이하) */
 @media (max-width: 768px) {
   .home-h1 {
-    font-size: 6.5rem;
+    font-size: 5rem;
     margin: 2rem;
   }
 
@@ -93,7 +94,7 @@
 /* 스마트폰 (600px 이하) */
 @media (max-width: 600px) {
   .home-h1 {
-    font-size: 5.5rem;
+    font-size: 4rem;
     margin: 1.5rem;
   }
 
