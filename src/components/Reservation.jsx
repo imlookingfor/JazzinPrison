@@ -10,9 +10,9 @@ export default function Reservation() {
   return (
     <>
       <div className='hidden-div'></div>
-      <div className='logo-div'>
+      {/* <div className='logo-div'>
         <Link to='/'><img className="logo" src={logoImg}/></Link>
-      </div>
+      </div> */}
 
       <main>
         <h1>Reservation</h1>
