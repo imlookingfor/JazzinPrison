@@ -155,7 +155,7 @@ export const ENSEMBLE = [
   },
   {
     name: "정동현",
-    text: "",
+    text: "보험왕 포오스",
     image: ensemble8
   },
   {
