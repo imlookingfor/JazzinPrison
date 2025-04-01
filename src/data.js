@@ -2,7 +2,7 @@ import velma1 from "./assets/profiles/velma1.jpeg"
 import velma2 from "./assets/profiles/velma2.jpeg"
 import velma3 from "./assets/profiles/velma3.jpeg"
 import roxie1 from "./assets/profiles/roxie1.jpeg"
-import roxie2 from "./assets/profiles/roxie2.jpeg"
+import roxie2 from "./assets/profiles/roxie2.png"
 import roxie3 from "./assets/profiles/roxie3.jpeg"
 import billy1 from "./assets/profiles/billy1.jpeg"
 import billy2 from "./assets/profiles/billy2.jpeg"
@@ -76,7 +76,7 @@ export const BILLY = [
   {
     name: "김정우",
     text: "감쪽같은 마법으로 모두 홀려봐",
-    image: billy4
+    image: billy3
   },
 ]
 
@@ -161,7 +161,7 @@ export const ENSEMBLE = [
   },
   {
     name: "송하빈",
-    text: "유죄",
+    text: "I'm still alive",
     image: ensemble9
   },
 ]
