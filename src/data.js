@@ -27,7 +27,7 @@ import ensemble9 from "./assets/profiles/ensemble9.jpeg"
 export const VELMA = [
   {
     name: "김수빈",
-    text: "난 누구의 여자도 아냐",
+    text: "난 누구의 여자도 아냐 내 인생을 사랑해",
     image: velma1
   },
   {
