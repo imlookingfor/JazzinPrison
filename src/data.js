@@ -7,6 +7,7 @@ import roxie3 from "./assets/profiles/roxie3.jpeg"
 import billy1 from "./assets/profiles/billy1.jpeg"
 import billy2 from "./assets/profiles/billy2.jpeg"
 import billy3 from "./assets/profiles/billy3.jpeg"
+import billy4 from "./assets/profiles/billy4.jpeg"
 import mama1 from "./assets/profiles/mama1.png"
 import mary1 from "./assets/profiles/mary1.jpeg"
 import mary2 from "./assets/profiles/mary2.jpeg"
@@ -75,7 +76,7 @@ export const BILLY = [
   {
     name: "김정우",
     text: "감쪽같은 마법으로 모두 홀려봐",
-    image: billy3
+    image: billy4
   },
 ]
 
