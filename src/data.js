@@ -136,7 +136,7 @@ export const ENSEMBLE = [
   },
   {
     name: "심연재",
-    text: "5,6,7,8!",
+    text: "five,six,seven,eight!",
     image: ensemble4
   },
   {
