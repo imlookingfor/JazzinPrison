@@ -1,12 +1,9 @@
-# React + Vite
+# 두 여자 이야기 · Jazz in Prison
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+극단 어뮤즈(AMUSE) 뮤지컬 〈시카고〉 공연 안내 사이트. React 19 + Vite, GitHub Pages 로 배포.
 
-Currently, two official plugins are available:
+- 개발: `npm run dev`
+- 빌드: `npm run build`
+- 배포: `npm run deploy` (dist → gh-pages 브랜치)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+출연진·연출진은 `src/data.js` 한 파일에서 고친다. 사진은 `src/assets/profiles/<id>.webp` (긴 쪽 960px) 로 넣고 `photo: '<id>'` 로 가리킨다.

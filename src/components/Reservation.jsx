@@ -1,40 +1,19 @@
-import { Link } from 'react-router-dom'
-import HowtoReserve from './HowtoReseve'
-// import Schedule from './Schedule'
-// import Location from './Location'
-import logoImg from '../assets/logo.png'
-import './Reservation.css'
-
-
 export default function Reservation() {
   return (
-    <>
-      <div className='hidden-div'></div>
-      {/* <div className='logo-div'>
-        <Link to='/'><img className="logo" src={logoImg}/></Link>
-      </div> */}
-
-      <main>
-        <h1>Reservation</h1>
-        <section className='reservation'>
-          <HowtoReserve />
-        </section>
-
-        {/* <h1>Schedule</h1>
-        <section className='schedules'>
-          <Schedule />
-        </section> */}
-
-        {/* <h1>Location</h1>
-        <section className='locatin'>
-          <Location />
-        </section> */}
-      </main>
-
-      <div className='hidden-div'></div>
-      <div className='hidden-div'></div>
-
-    </>
-
+    <main>
+      <h1 className="title">Reservation</h1>
+      <section className="card reservation">
+        <h3 className="subtitle">예매방법</h3>
+        <a className="btn" href="https://forms.gle/hGtLT9ihVsyETaUK9" target="_blank" rel="noreferrer">
+          접수하러 가기
+        </a>
+        <div className="notes">
+          <p>위 링크를 통해 구글폼 양식을 작성하신 후 접수하시면 예매가 완료됩니다.</p>
+          <p>장소는 예매 완료하신 분들에 한해 공연 전날 문자로 안내해 드리고 있습니다.</p>
+          <p>티켓은 공연 한 시간 전부터 공연장에서 수령하실 수 있습니다.</p>
+          <p>예매 시 유의사항 : 애들은 가라! 14세 이상 관람가</p>
+        </div>
+      </section>
+    </main>
   )
 }

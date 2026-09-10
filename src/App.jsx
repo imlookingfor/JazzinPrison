@@ -1,28 +1,27 @@
-import { Routes, Route } from 'react-router-dom';
+import { useEffect } from 'react'
+import { Routes, Route, useLocation } from 'react-router-dom'
 import Home from './components/Home.jsx'
-import Reservation from './components/Reservation.jsx';
-import Information from './components/Information.jsx';
-import NotFound from './components/NotFound.jsx';
+import Information from './components/Information.jsx'
+import Reservation from './components/Reservation.jsx'
+import NotFound from './components/NotFound.jsx'
 
+// 페이지를 옮기면 맨 위부터 보이게
+function ScrollToTop() {
+  const { pathname } = useLocation()
+  useEffect(() => window.scrollTo(0, 0), [pathname])
+  return null
+}
 
-function App() {
+export default function App() {
   return (
-    <div>
+    <>
+      <ScrollToTop />
       <Routes>
-
         <Route path="/" element={<Home />} />
-        <Route path="/reservation" element={<Reservation />} />
         <Route path="/info" element={<Information />} />
-
-        {/* 일치하는 경로가 없을 때 NotFound 컴포넌트 렌더링 */}
-        <Route path="/*" element={<NotFound />} />
-
+        <Route path="/reservation" element={<Reservation />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
-    </div>
+    </>
   )
-
-};
-
-
-export default App;
-
+}
